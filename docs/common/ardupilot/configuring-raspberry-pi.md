@@ -63,7 +63,7 @@ If that doesn't work out for you, read a section below.
 To find an IP address of your Raspberry Pi use nmap utility.
 
 It can be run from the console on your desktop:
-nmap -sn 192.168.1.*
+```nmap -sn 192.168.1.* | grep "navio"```
 
 You can use it with a GUI such as Zenmap or Fing application on your phone.
 
